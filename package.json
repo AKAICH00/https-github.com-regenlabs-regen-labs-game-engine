@@ -1,0 +1,37 @@
+{
+  "name": "@telegram-game-platform/sdk",
+  "version": "0.1.0",
+  "description": "SDK for Telegram Game Platform with Web3 support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/node-fetch": "^2.6.11",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "telegram",
+    "game",
+    "web3",
+    "sdk"
+  ],
+  "author": "",
+  "license": "MIT"
+}

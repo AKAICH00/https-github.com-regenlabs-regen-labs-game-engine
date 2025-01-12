@@ -1,0 +1,23 @@
+{
+  "name": "@telegram-game-platform/sdk",
+  "version": "0.1.0",
+  "description": "SDK for Telegram Game Platform games",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "clean": "rm -rf dist",
+    "test": "ts-node test/basic.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^20.17.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

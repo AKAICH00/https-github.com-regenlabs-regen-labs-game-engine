@@ -1,0 +1,18 @@
+{
+  "name": "telegram-multigame",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "doppler run -- nodemon --watch . server.js",
+    "build": "echo 'No build step needed for JS files'",
+    "start": "doppler run -- node server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/rate-limit": "^9.1.0",
+    "fastify": "^4.26.1",
+    "grammy": "^1.20.3",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.3"
+  }
+}

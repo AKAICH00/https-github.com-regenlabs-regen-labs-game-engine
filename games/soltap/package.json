@@ -1,0 +1,1 @@
+{"name":"soltap-root","version":"1.0.0","private":true,"workspaces":["game","shared"],"scripts":{"dev":"npm run dev -w game","build":"npm run build -w game","preview":"npm run preview -w game"}}
